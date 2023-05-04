@@ -1,18 +1,18 @@
-# Create a tailwind.config.js file
+# To contribute to this project
 
-./tailwindcss init
+./fork the project
 
 # Start css tailwind watcher (JIT) in development
 
-./tailwindcss -i input.css -o output.css --watch (or just run "npm run dev")
+./run npm run dev
 
 # Compile and minify your CSS tailwind for production
 
-./tailwindcss -i input.css -o output.css --minify (or just run "npm run pro")
+./run "npm run pro"
 
 # Start a watcher for alpine js in development (It will also be complied for production )
 
-./tailwindcss -i input.css -o output.css --watch (or just run "npm run build-js")
+./ run "npm run build-js"
 
 # Useful links
 
