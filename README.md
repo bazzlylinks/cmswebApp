@@ -10,7 +10,7 @@
 
 ./tailwindcss -i input.css -o output.css --minify (or just run "npm run pro")
 
-# Start a Js for alpine in development
+# Start a watcher for alpine js in development (It will also be complied for production )
 
 ./tailwindcss -i input.css -o output.css --watch (or just run "npm run build-js")
 
