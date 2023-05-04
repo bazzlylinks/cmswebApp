@@ -2,13 +2,17 @@
 
 ./tailwindcss init
 
-# Start a watcher
+# Start css tailwind watcher (JIT) in development
 
-./tailwindcss -i input.css -o output.css --watch
+./tailwindcss -i input.css -o output.css --watch (or just run "npm run dev")
 
-# Compile and minify your CSS for production
+# Compile and minify your CSS tailwind for production
 
-./tailwindcss -i input.css -o output.css --minify
+./tailwindcss -i input.css -o output.css --minify (or just run "npm run pro")
+
+# Start a Js for alpine in development
+
+./tailwindcss -i input.css -o output.css --watch (or just run "npm run build-js")
 
 # Useful links
 
@@ -19,13 +23,13 @@ https://fontawesomeicons.com/svg/icons/laravel
 
 https://www.youtube.com/watch?v=BR_9XquCegs&t=82s
 
-### For techexplorer challenge css must start with this
+### I always start my css like this, this might help someone.
 
 '\*' {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  }
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
 html {
 background-color: #660066;
